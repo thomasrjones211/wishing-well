@@ -1,0 +1,185 @@
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: helvetica;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 3em;
+  color: gold;
+  text-shadow: 0 0 3px #000000;
+}
+
+h2 {
+  font-size: 2em;
+  color: gold;
+  text-shadow: 0 0 3px #000000;
+}
+
+.title::-webkit-input-placeholder {
+    color: hsl(22, 52%, 45%);
+    font-size: 2em;
+}
+
+.Wish::-webkit-input-placeholder {
+    color: hsl(22, 52%, 45%);
+    font-size: 2em;
+}
+
+textarea {
+  font-size: 1em;
+  color: purple;
+  margin-bottom: 70px;
+}
+
+#submit,
+#reset-btn {
+  color: purple;
+  background-color: lightGrey;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.hero-wrapper {
+  Display:flex;
+  Justify-content: flex-end;
+  Height: auto;
+  Border: 2px solid black;
+}
+
+.hero {
+  Text-align: center;
+  Color: blue;
+  Font-size:.8em;
+}
+
+.content-wrapper {
+  Display:flex;
+  Justify-content: flex-start;
+  Width:100%;
+  Height: auto;
+  Border: 2px solid black;
+}
+
+.index-bg {
+  background: url(http://postroiv.ru/wp-content/uploads/2016/05/613.jpg) no-repeat center center;
+  flex: 1;
+}
+
+.title-wrapper {
+  direction: rtl;
+  margin: 50px;
+}
+
+.subTitle-wrapper {
+  direction: rtl;
+  margin: 50px;
+}
+
+.link-wrapper {
+  direction: rtl;
+  margin: 50px;
+}
+
+.bottom-wrapper1 {
+  position: fixed;
+  bottom: 3%;
+  left: 0;
+  right: 0;
+  text-align: right;
+  margin: 0px 10px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.form-stuff {
+  width: 50%;
+}
+
+.form-img {
+  width: 50%;
+  height: 50%;
+}
+
+.form-img img {
+  /*object-fit: cover;*/
+  /*min-width: 50%;
+  min-height: 50%;*/
+  width: 98%;
+  height: 100%;
+}
+
+#reset-text {
+  font-size: 2em;
+}
+
+.wish-wrapper {
+  display: flex;
+  flex-direction: row;
+  min-height: 400px;
+  width: 100%;
+}
+
+.wish-spot {
+  width: 55%;
+  font-size: 2em;
+}
+
+.wish-img {
+  background: url(http://us.123rf.com/450wm/chrisbradshaw/chrisbradshaw1501/chrisbradshaw150100013/35922618-many-different-coins-under-water-in-a-fountain.jpg?ver=6) no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  width: 45%;
+}
+
+.thought-img img {
+  object-fit: cover;
+}
+
+.bottom-wrapper2 {
+  margin-top: 40px;
+  color: hsl(22, 52%, 45%);
+}
+
+footer {
+    background-color: hsl(60, 75%, 34%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+footer small {
+    margin-right: 2rem;
+}
+
+footer .kangol {
+    background: url(http://www.cdyear.com/images/Logo-Quiz-Answers/kangol-20492.jpg);
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+footer address {
+    margin-left: 2rem;
+}

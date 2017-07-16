@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+    <h2>What's on your Wish List</h2>
+    <div class="form-wrapper">
+      <div class="form-stuff">
+      <form action="processForm" method="get">
+        <div class="">
+          <label for="title"></label>
+          <textarea class="title" name="title" rows="3" cols="70" placeholder="Give each wish a name:" style="background:lightGrey" style="font-size:2em"></textarea>
+
+          <label for="Wish"></label><br>
+          <textarea class="Wish" name="Wish" rows="12" cols="70" placeholder="Now put it, here:" style="background:lightGrey"></textarea><br>
+        </div>
+        <div class="">
+          <input type="submit" name="Submit" value="Submit" id="submit">
+        </div>
+      </form>
+      </div>
+      <div class="form-img">
+        <img src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2015/03/159615168-1024x768.jpg" alt="pointer">
+      </div>
+    </div>
+    <footer>
+      <small>&copy; BMF,  2017</small>
+      <span class="kangol"></span>
+      <address>Denver, Colorado</address>
+    </footer>
+  </body>
+</html>
