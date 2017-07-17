@@ -162,7 +162,7 @@ textarea {
 }
 
 footer {
-    background-color:hsl(60, 100%, 35%);
+    background-color:hsl(180, 20%,67%);
     color: hsl(0, 0%, 100%);
     display: flex;
     justify-content: center;
