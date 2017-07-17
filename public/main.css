@@ -16,13 +16,13 @@ body {
 h1{
   font-size: 3em;
   color: gold;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-shadow: 0 0 3px #000000;
 }
 
 h2 {
   font-size: 2em;
   color: gold;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-shadow: 0 0 3px #000000;
 }
 
 .title::-webkit-input-placeholder {
@@ -143,7 +143,7 @@ textarea {
 }
 
 .wish-img {
-  background: url(http://www.maxcady.com/selections/pulpfiction/bmf1l.jpg) no-repeat center;
+  background: url(http://us.123rf.com/450wm/chrisbradshaw/chrisbradshaw1501/chrisbradshaw150100013/35922618-many-different-coins-under-water-in-a-fountain.jpg?ver=6) no-repeat center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -161,7 +161,7 @@ textarea {
 }
 
 footer {
-    background-color: hsl(0, 0%, 0%);
+    background-color: hsl(60, 75%, 34%);
     color: hsl(0, 0%, 100%);
     display: flex;
     justify-content: center;
@@ -172,8 +172,8 @@ footer small {
     margin-right: 2rem;
 }
 
-footer .kangol {
-    background: url(http://www.cdyear.com/images/Logo-Quiz-Answers/kangol-20492.jpg);
+footer .well_ico {
+    background: url(https://maxcdn.icons8.com/Share/icon/DIY//well1600.png);
     background-size: 20px 20px;
     width: 20px;
     height: 20px;
