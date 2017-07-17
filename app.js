@@ -1,5 +1,6 @@
 const express = require("express")
 var app = express()
+const favicon = require('serve-favicon');
 var port = process.env.PORT || 3000;
 let wishes = []
 
@@ -28,5 +29,5 @@ app.get("/reset", (req, res) => {
 })
 
 app.listen(port, function() {
-  console.log("yeah, yeah... on port 3000")
+  console.log("Start wishing ... on port 3000")
 })
