@@ -15,14 +15,14 @@ body {
 
 h1{
   font-size: 3em;
-  color: gold;
+  color: #FFD700;
   text-shadow: 0 0 3px #000000;
 }
 
 h2 {
   font-size: 2em;
-  color: gold;
-  text-shadow: 0 0 3px #000000;
+  color: #000000;
+  text-shadow: 0 0 3px #FFD700;
 }
 
 .title::-webkit-input-placeholder {
@@ -100,7 +100,7 @@ textarea {
   left: 0;
   right: 0;
   text-align: right;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 .form-wrapper {
@@ -156,11 +156,11 @@ textarea {
 
 .bottom-wrapper2 {
   margin-top: 40px;
-  color: hsl(22, 52%, 45%);
+  color: hsl(22, 52%, 50%);
 }
 
 footer {
-    background-color: hsl(60, 75%, 34%);
+    background-color:hsl(60, 100%, 35%);
     color: hsl(0, 0%, 100%);
     display: flex;
     justify-content: center;
