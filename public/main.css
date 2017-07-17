@@ -75,18 +75,20 @@ textarea {
 }
 
 .index-bg {
-  background: url(http://postroiv.ru/wp-content/uploads/2016/05/613.jpg) no-repeat center center;
+  background: url(http://postroiv.ru/wp-content/uploads/2016/05/613.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
   flex: 1;
 }
 
 .title-wrapper {
   direction: rtl;
-  margin: 50px;
+  margin: 10px;
 }
 
 .subTitle-wrapper {
   direction: rtl;
-  margin: 50px;
+  margin: 10px;
 }
 
 .link-wrapper {
